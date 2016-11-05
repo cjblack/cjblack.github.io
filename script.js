@@ -1,1 +1,3 @@
-$(document).ready(function(){ alert("Hello World"); });
+function sayHello(name) {
+    document.getElementById("result").innerHTML='Hello ' + name + '!';
+}
