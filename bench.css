@@ -33,6 +33,10 @@ body{
   font-family: CooperHewitt;
   font-size:1.5em;
 }
+head{
+  font-family: CooperHewitt;
+  font-style: bold;
+}
 
 /*...id's*/
 #navWrap{
