@@ -31,7 +31,7 @@ body{
   padding-top:10px;
   padding-left:30px;
   font-family: CooperHewitt;
-  font-size:1.5em;
+  font-size:100%;
 }
 
 head{
@@ -84,7 +84,7 @@ a{
   margin-bottom:0;
   font-family: CooperHewitt;
   font-style: bold;
-  font-size: 60%;
+  font-size: 50%;
   color: grey;
   white-space: nowrap;
 }
