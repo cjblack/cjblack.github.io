@@ -45,15 +45,6 @@ a{
 }
 
 /*...id's*/
-#navWrap{
-  margin-bottom:0;
-  font-family: CooperHewitt;
-  font-style: medium;
-  font-size: 70%;
-  color: grey;
-  white-space: nowrap;
-}
-
 #section{
   position: relative;
 
@@ -86,4 +77,13 @@ a{
   z-index: 99;
   border-top: 1px solid #eee;
   border-bottom: 1px solid #eee;
+}
+
+.navWrap{
+  margin-bottom:0;
+  font-family: CooperHewitt;
+  font-style: medium;
+  font-size: 70%;
+  color: grey;
+  white-space: nowrap;
 }
