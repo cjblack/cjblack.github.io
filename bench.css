@@ -39,12 +39,16 @@ head{
   font-style: bold;
 }
 
+a{
+  color:inherit;
+  text-decoration: inherit;
+}
+
 /*...id's*/
 #navWrap{
   height: 30px;
   font-size: 70%;
   color: grey;
-  padding: 30px;
   white-space: nowrap;
 }
 
