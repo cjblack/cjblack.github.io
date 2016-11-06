@@ -26,6 +26,9 @@
  src: url("fonts/CooperHewitt/CooperHewitt-Bold.woff")
  font-style: bold;
 }
+html{
+  font-size: 15px;
+}
 
 body{
   padding-top:10px;
