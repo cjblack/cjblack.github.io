@@ -33,6 +33,7 @@ body{
   font-family: CooperHewitt;
   font-size:1.5em;
 }
+
 head{
   font-family: CooperHewitt;
   font-style: bold;
@@ -41,6 +42,8 @@ head{
 /*...id's*/
 #navWrap{
   height: 30px;
+  font-size: 70%;
+  color: grey;
 
 }
 
