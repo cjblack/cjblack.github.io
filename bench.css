@@ -1,5 +1,7 @@
 /*simplistic style sheet for sites*/
 
+/*...base style*/
+
 @font-face{
  font-family: CooperHewitt;
  src: url("fonts/CooperHewitt/CooperHewitt-Light.woff")
@@ -26,6 +28,7 @@
 }
 
 body{
+  padding-top:10px;
   padding-left:30px;
   font-family: CooperHewitt;
   font-size:1.5em;
