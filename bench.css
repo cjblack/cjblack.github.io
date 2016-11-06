@@ -26,10 +26,6 @@
  src: url("fonts/CooperHewitt/CooperHewitt-Bold.woff")
  font-style: bold;
 }
-@font-face{
-  font-family: Lekton;
-  src: url("https://fonts.googleapis.com/css?family=Lekton")
-}
 
 body{
   padding-top:10px;
@@ -39,7 +35,7 @@ body{
 }
 
 .container{
-  font-family: Lekton, sans-serif;
+  font-family: 'Lekton', sans-serif;
   font-size: 1em;
   font-color: grey;
   font-style: normal;
