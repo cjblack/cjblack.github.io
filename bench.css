@@ -31,7 +31,7 @@ body{
   padding-top:10px;
   padding-left:30px;
   font-family: CooperHewitt;
-  font-size:100%;
+  font-size:50%;
 }
 
 head{
@@ -54,7 +54,7 @@ a{
 
 .code{
   font-family: 'Lekton', sans-serif;
-  font-size: 65%;
+  font-size: 40%;
   color: grey;
   font-style: normal;
   position: relative;
@@ -84,7 +84,7 @@ a{
   margin-bottom:0;
   font-family: CooperHewitt;
   font-style: bold;
-  font-size: 70%;
+  font-size: 50%;
   color: grey;
   white-space: nowrap;
 }
