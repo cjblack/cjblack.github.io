@@ -40,6 +40,10 @@ body{
   position:fixed;
 }
 
+#section{
+  position: relative;
+
+}
 /*...classes*/
 
 .container{
