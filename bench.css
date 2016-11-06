@@ -42,13 +42,10 @@ head{
 /*...id's*/
 #navWrap{
   height: 30px;
-<<<<<<< HEAD
   font-size: 70%;
   color: grey;
-=======
- white-space: nowrap;
->>>>>>> 24ad05d9d51973584572265d3e2293b3b905f711
-
+  padding: 30px;
+  white-space: nowrap;
 }
 
 #section{
@@ -72,8 +69,5 @@ head{
   border: 1px solid #E1E1E1;
   border-radius: 4px;
   display:block;
-  /*border-style: solid;
-  border-color: grey;*/
-  /*border-width: 1px;*/
   box-sizing: border-box;
 }
