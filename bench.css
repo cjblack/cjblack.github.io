@@ -35,6 +35,8 @@ body{
 }
 
 .container{
+  font-family: monospace;
+  font-size: 1em;
   position: relative;
   width: 100%;
   max-width: 960px;
