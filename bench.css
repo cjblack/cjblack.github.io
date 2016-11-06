@@ -37,7 +37,7 @@ body{
 .container{
   font-family: 'Lekton', sans-serif;
   font-size: 50%;
-  font-color: grey;
+  color: grey;
   font-style: normal;
   position: relative;
   width: 100%;
