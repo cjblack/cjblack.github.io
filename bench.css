@@ -1,0 +1,32 @@
+/*simplistic style sheet for sites*/
+
+@font-face{
+ font-family: CooperHewitt;
+ src: url("fonts/CooperHewitt/CooperHewitt-Light.woff")
+}
+@font-face{
+ font-family: CooperHewitt;
+ src: url("fonts/CooperHewitt/CooperHewitt-Medium.woff")
+ font-style: medium;
+}
+@font-face{
+ font-family: CooperHewitt;
+ src: url("fonts/CooperHewitt/CooperHewitt-Heavy.woff")
+ font-style: heavy;
+}
+@font-face{
+ font-family: CooperHewitt;
+ src: url("fonts/CooperHewitt/CooperHewitt-Thin.woff")
+ font-style: thin;
+}
+@font-face{
+ font-family: CooperHewitt;
+ src: url("fonts/CooperHewitt/CooperHewitt-Bold.woff")
+ font-style: bold;
+}
+
+body{
+  padding-left:70px;
+  font-family: CooperHewitt;
+  font-size:1.5em;
+}
