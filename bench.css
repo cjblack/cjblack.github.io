@@ -42,5 +42,7 @@ body{
   max-width: 960px;
   margin: 0 auto;
   padding: 0 20px;
+  border-style: solid;
+  border-color: grey;
   box-sizing: border-box;
 }
