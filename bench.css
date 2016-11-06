@@ -43,7 +43,7 @@ body{
   width: 100%;
   max-width: 960px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: .2rem 0.5rem;
   white-space: nowrap;
   background: white;
   border: 1px solid #E1E1E1;
