@@ -58,6 +58,7 @@ p{
 a{
   color:inherit;
   text-decoration: inherit;
+  padding-left: 10px;
 }
 
 /*...id's*/
@@ -100,6 +101,5 @@ a{
   font-family: CooperHewitt;
   font-style: bold;
   font-size: 1.2rem;
-  color: grey;
   white-space: nowrap;
 }
