@@ -37,6 +37,7 @@ body{
 head{
   font-family: CooperHewitt;
   font-style: bold;
+  font-size 100%;
 }
 
 a{
@@ -53,7 +54,7 @@ a{
 
 .code{
   font-family: 'Lekton', sans-serif;
-  font-size: 65%;
+  font-size: 60%;
   color: grey;
   font-style: normal;
   position: relative;
@@ -82,7 +83,7 @@ a{
 .navWrap{
   margin-bottom:0;
   font-family: CooperHewitt;
-  font-style: medium;
+  font-style: bold;
   font-size: 70%;
   color: grey;
   white-space: nowrap;
