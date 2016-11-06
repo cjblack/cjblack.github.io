@@ -31,21 +31,21 @@ body{
   padding-top:10px;
   padding-left:30px;
   font-family: CooperHewitt;
-  font-size:0.7rem%;
+  font-size:1.7rem%;
 }
 
 head{
   font-family: CooperHewitt;
   font-style: bold;
-  font-size: 1.6rem%;
+  font-size: 2.6rem%;
 }
 
-h1{font-size: 1.5rem%;}
-h2{font-size: 1.2rem%;}
-h3{font-size: 1.0rem%;}
-h4{font-size: 0.8rem%;}
-h5{font-size: 0.7rem%;}
-h6{font-size: 0.6rem%;}
+h1{font-size: 2.5rem%;}
+h2{font-size: 2.2rem%;}
+h3{font-size: 2.0rem%;}
+h4{font-size: 1.8rem%;}
+h5{font-size: 1.7rem%;}
+h6{font-size: 1.6rem%;}
 
 
 a{
