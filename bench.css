@@ -41,6 +41,7 @@ head{
 /*...id's*/
 #navWrap{
   height: 30px;
+ white-space: nowrap;
 
 }
 
