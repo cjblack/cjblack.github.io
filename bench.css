@@ -40,6 +40,14 @@ head{
   font-size: 100%;
 }
 
+h1{font-size: 100%;}
+h2{font-size: 70%;}
+h3{font-size: 65%;}
+h4{font-size: 50%;}
+h5{font-size: 50%;}
+h6{font-size: 45%;}
+
+
 a{
   color:inherit;
   text-decoration: inherit;
