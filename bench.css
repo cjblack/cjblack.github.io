@@ -71,7 +71,7 @@ a{
 
 .code{
   font-family: 'Lekton', sans-serif;
-  font-size: 0.8rem;
+  font-size: 1.0rem;
   color: grey;
   font-weight: bold;
   position: relative;
@@ -80,7 +80,7 @@ a{
   margin: 0 auto;
   padding: .2rem 0.5rem;
   white-space: nowrap;
-  background: white;
+  background: #F2F2F2;
   border: 1px solid #E1E1E1;
   border-radius: 4px;
   display:block;
