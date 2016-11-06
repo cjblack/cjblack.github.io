@@ -47,6 +47,8 @@ a{
 /*...id's*/
 #navWrap{
   margin-bottom:0;
+  font-family: CooperHewitt;
+  font-style: medium;
   font-size: 70%;
   color: grey;
   white-space: nowrap;
