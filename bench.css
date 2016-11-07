@@ -33,8 +33,7 @@ html{
 head{
   padding-left:30px;
   font-family: CooperHewitt;
-  font-style: medium;
-  font-weight: bold;
+  font-style: heavy;
   font-size: 3.0rem;
 }
 
@@ -45,8 +44,8 @@ body{
   font-size:1.7rem;
 }
 
-h1{font-size: 2.6rem; font-weight: 900;}
-h2{font-size: 2.4rem; font-weight: 800;}
+h1{font-size: 2.6rem;}
+h2{font-size: 2.4rem;}
 h3{font-size: 2.2rem;}
 h4{font-size: 1.6rem;}
 h5{font-size: 1.4rem;}
