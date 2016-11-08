@@ -39,7 +39,6 @@ html{
 head{
   padding-left:30px;
   font-family: CooperHewitt;
-  font-style: heavy;
   font-size: 3.0rem;
 }
 
@@ -59,7 +58,7 @@ h6{font-size: 1.2rem;}
 
 p{
   font-size:1.0rem;
-  font-style: light;
+  font-style: thin;
 }
 
 a{
