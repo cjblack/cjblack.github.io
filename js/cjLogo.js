@@ -10,7 +10,7 @@ var group = new Group();
 group.addChild(path_c1);
 
 // The path can be accessed by name:
-group.children['example'].fillColor = 'blue';
+group.children['example'].fillColor = '#0000FF';
 
 var path_c2 = new Path.Circle({
   center: [120, 50],
@@ -22,7 +22,7 @@ path_c2.name = 'example1';
 // Create a group and add path to it as a child:
 group.addChild(path_c2);
 group.children['example1'].fillColor = '#0099FF';
-group.children['example1'].blendMode = 'source-out';
+group.children['example1'].blendMode = 'color-burn';
 
 // var circle1 = new Path.Circle({
 //     center: view.center,
