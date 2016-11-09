@@ -7,13 +7,13 @@ var circle1 = new Path.Circle({
     fillcolor: 'blue'
 });
 // circle1.fillColor = new Color(0, 0, 138);
-var circle2 = new Path.Circle({
-    center: [120,50],
-    radius: 35
-});
-circle2.fillColor = new Color(42, 91, 215);
-
-circle2.blendMode = 'source-out';
+// var circle2 = new Path.Circle({
+//     center: [120,50],
+//     radius: 35
+// });
+// circle2.fillColor = new Color(42, 91, 215);
+//
+// circle2.blendMode = 'source-out';
 
 // path.on('mouseenter', function() {
 //
