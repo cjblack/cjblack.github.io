@@ -3,6 +3,10 @@ var circle1 = new Path.Circle({
     radius: 10,
     strokeColor: 'blue',
 });
+
+function onResize(event){
+  path.position = view.center;
+}
 // circle1.fillColor = new Color(0, 0, 138);
 // var circle2 = new Path.Circle({
 //     center: [120,50],
