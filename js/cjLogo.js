@@ -21,6 +21,34 @@ var path_c3 = new Path.Circle({
  fillColor: '#0080FF',
 });
 
+path_c1.onMouseEnter = function(event) {
+    this.shadowColor = new Color(0,0,0);
+    this.shadowBlur = 12;
+}
+path_c1.onMouseLeave = function(event){
+    this.shadowBlur = 0;
+}
+path_c2.onMouseEnter = function(event) {
+    this.shadowColor = new Color(0,0,0);
+    this.shadowBlur = 12;
+}
+path_c2.onMouseLeave = function(event){
+    this.shadowBlur = 0;
+}
+path_c3.onMouseEnter = function(event) {
+    this.shadowColor = new Color(0,0,0);
+    this.shadowBlur = 12;
+}
+path_c3.onMouseLeave = function(event){
+    this.shadowBlur = 0;
+}
+path_c.onMouseEnter = function(event) {
+    this.shadowColor = new Color(0,0,0);
+    this.shadowBlur = 12;
+}
+path_c.onMouseLeave = function(event){
+    this.shadowBlur = 0;
+}
 
 path_c1.blendMode = 'hue';
 
