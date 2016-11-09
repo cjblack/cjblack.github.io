@@ -49,10 +49,3 @@ path_c.onMouseEnter = function(event) {
 path_c.onMouseLeave = function(event){
     this.shadowBlur = 0;
 }
-
-path_c1.blendMode = 'hue';
-
-path_c2.blendMode = 'hue';
-
-
-path_c3.blendMode = 'hue';
