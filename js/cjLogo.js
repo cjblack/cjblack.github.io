@@ -20,9 +20,10 @@ var path_c2 = new Path.Circle({
 path_c2.name = 'example1';
 
 // Create a group and add path to it as a child:
-group.addChild(path_c2);
-group.children['example1'].fillColor = '#0099FF';
-group.children['example1'].blendMode = 'color-burn';
+var group2 = new Group();
+group2.addChild(path_c2);
+group2.children['example1'].fillColor = '#0099FF';
+group2.children['example1'].blendMode = 'color-burn';
 
 // var circle1 = new Path.Circle({
 //     center: view.center,
