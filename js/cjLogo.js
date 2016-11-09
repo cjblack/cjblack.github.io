@@ -2,7 +2,7 @@ var background = new Path.Rectangle(view.bounds);
 background.fillColor = 'white';
 
 var circle1 = new Path.Circle({
-    center: [80,50],
+    center: view.center,
     radius: 35,
     fillcolor: 'blue'
 });
