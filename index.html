@@ -4,16 +4,19 @@
   <script type="text/javascript" src="js/paper.js"></script>
   <!-- Define inlined PaperScript associate it with myCanvas -->
   <script type="text/paperscript" canvas="myCanvas">
-  	// Create a Paper.js Path to draw a line into it:
-  	var path = new Path();
-  	// Give the stroke a color
-  	path.strokeColor = 'blue';
-  	var start = new Point(100, 100);
-  	// Move to start and draw a line from there
-  	path.moveTo(start);
-  	// Note the plus operator on Point objects.
-  	// PaperScript does that for us, and much more!
-  	path.lineTo(start + [ 100, -50 ]);
+        var path = new Path.Circle({
+          center: [80, 50],
+          radius: 35
+      });
+      // Set the name of the path:
+      path.name = 'example';
+
+      // Create a group and add path to it as a child:
+      var group = new Group();
+      group.addChild(path);
+
+      // The path can be accessed by name:
+      group.children['example'].fillColor = 'blue';
   </script>
   <link href="https://fonts.googleapis.com/css?family=Lekton" rel="stylesheet">
   <title> cjblack pages </title>
