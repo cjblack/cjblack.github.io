@@ -2,14 +2,29 @@
 <head>
   <link rel="stylesheet" type="text/css" href="bench.css">
   <script type="text/javascript" src="js/paper.js"></script>
-  <script type="text/paperscript" src="js/cjLogo.js" canvas="myCanvas"></script>
+  <script type="text/paperscript" canvas="myCanvas">
+    var circle1 = new Path.Circle({
+        center: view.center,
+        radius: 30
+    });
+
+    circle1.fillColor = new Color(0, 0, 138);
+    var circle2 = new Path.Circle({
+        center: [120,50],
+        radius: 30
+    });
+    circle2.fillColor = new Color(42, 91, 215);
+
+    circle2.blendMode = 'source-out';
+    </script>
+  <!-- src="js/cjLogo.js" -->
   <link href="https://fonts.googleapis.com/css?family=Lekton" rel="stylesheet">
   <title> cjblack pages </title>
   <h1>cjblack</h1>
   <h2>home</h2>
 </head>
   <body>
-    <canvas id="myCanvas" resize></canvas>
+    <!-- <canvas id="myCanvas" resize></canvas> -->
     <div class="navbar_border">
       <nav class="navWrap">
         <a href="index.html"> home </a>
