@@ -53,7 +53,7 @@ body{
 h1{font-size: 2.6rem; font-style: book;}
 h2{font-size: 2.4rem; font-style: medium;}
 h3{font-size: 2.2rem; font-style: light;}
-h4{font-size: 1.6rem; font-style: thin;}
+h4{font-size: 1.6rem; font-style: light;}
 h5{font-size: 1.4rem;}
 h6{font-size: 1.2rem;}
 
@@ -106,7 +106,7 @@ a{
 .navWrap{
   margin-bottom:0;
   font-family: CooperHewitt;
-  font-style: book;
+  font-style: medium;
   font-size: 1.2rem;
   white-space: nowrap;
 }
