@@ -3,7 +3,7 @@ background.fillColor = 'white';
 
 var circle1 = new Shape.Circle({
     center: [80,50],
-    radius: 35,
+    radius: 10,
     strokeColor: 'blue',
     fillcolor: 'blue'
 });
