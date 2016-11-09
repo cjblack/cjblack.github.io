@@ -1,11 +1,15 @@
+var background = new Path.Rectangle(view.bounds);
+background.fillColor = 'white';
+
 var circle1 = new Path.Circle({
     center: [80,50],
     radius: 35,
+    fillcolor: 'blue'
 });
-circle1.fillColor = new Color(0, 0, 138);
+// circle1.fillColor = new Color(0, 0, 138);
 var circle2 = new Path.Circle({
     center: [120,50],
-    radius: 35,
+    radius: 35
 });
 circle2.fillColor = new Color(42, 91, 215);
 
