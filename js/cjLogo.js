@@ -23,7 +23,7 @@ path_c2.name = 'example1';
 var group2 = new Group();
 group2.addChild(path_c2);
 group2.children['example1'].fillColor = '#0099FF';
-group2.children['example1'].blendMode = 'color-burn';
+group.children['example'].blendMode = 'color-burn';
 
 // var circle1 = new Path.Circle({
 //     center: view.center,
