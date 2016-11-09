@@ -3,21 +3,7 @@
   <link rel="stylesheet" type="text/css" href="bench.css">
   <script type="text/javascript" src="js/paper.js"></script>
   <!-- Define inlined PaperScript associate it with myCanvas -->
-  <script type="text/paperscript" canvas="myCanvas">
-        var path = new Path.Circle({
-          center: [80, 50],
-          radius: 35
-      });
-      // Set the name of the path:
-      path.name = 'example';
-
-      // Create a group and add path to it as a child:
-      var group = new Group();
-      group.addChild(path);
-
-      // The path can be accessed by name:
-      group.children['example'].fillColor = 'blue';
-  </script>
+  <script type="text/paperscript" src ="js/cjLogo.js" canvas="myCanvas"></script>
   <link href="https://fonts.googleapis.com/css?family=Lekton" rel="stylesheet">
   <title> cjblack pages </title>
   <h1>cjblack</h1>
@@ -33,8 +19,8 @@
       </nav>
     </div>
     <div id="section">
-      <h4>still working on things...</h4>
-      <p>Paperscript working... </p>
+      <h4>Let's see if...</h4>
+      <p>Paperscript is working... </p>
       <p class="code">Insert code text here...</p>
     </div>
     </body>
