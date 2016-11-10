@@ -101,6 +101,7 @@ a{
   z-index: 99;
   border-top: 1px solid #eee;
   border-bottom: 1px solid #eee;
+  position: relative;
 }
 
 .navWrap{
@@ -109,4 +110,5 @@ a{
   font-style: medium;
   font-size: 1.2rem;
   white-space: nowrap;
+  position: fixed;
 }

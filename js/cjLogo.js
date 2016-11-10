@@ -1,16 +1,16 @@
 
 var path_c = new Path.Rectangle({
-    point: [20,20],
+    point: [20,110],
     size: [60,60],
   fillColor: '#0020FF',
 });
 var path_c1 = new Path.Rectangle({
-  point: [50,50],
+  point: [50,110],
   size: [60,60],
   fillColor: '#0040FF',
 });
 var path_c2 = new Path.Rectangle({
-  point: [80,80],
+  point: [80,110],
   size: [60,60],
     fillColor: '#0060FF',
 
