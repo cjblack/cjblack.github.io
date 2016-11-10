@@ -1,22 +1,22 @@
 
 var path_c = new Path.Circle({
-  center: [10, 50],
+  center: [40, 50],
   radius: 20,
   fillColor: '#0020FF',
 });
 var path_c1 = new Path.Circle({
-  center: [25, 50],
+  center: [55, 50],
   radius: 20,
   fillColor: '#0040FF',
 });
 var path_c2 = new Path.Circle({
-  center: [40, 50],
+  center: [70, 50],
   radius: 20,
     fillColor: '#0060FF',
 
 });
 var path_c3 = new Path.Circle({
-  center: [55, 50],
+  center: [85, 50],
   radius: 20,
  fillColor: '#0080FF',
 });
