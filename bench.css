@@ -94,21 +94,19 @@ a{
 }
 
 /*...navigation bar class*/
-#navbar_border{
+.navbar_border{
   display:block;
   width:100%;
   background: #fff;
   z-index: 99;
   border-top: 1px solid #eee;
   border-bottom: 1px solid #eee;
-  position: relative;
 }
 
-#navWrap{
+.navWrap{
   margin-bottom:0;
   font-family: CooperHewitt;
   font-style: medium;
   font-size: 1.2rem;
   white-space: nowrap;
-  position: fixed;
 }
