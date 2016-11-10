@@ -94,7 +94,7 @@ a{
 }
 
 /*...navigation bar class*/
-.navbar_border{
+#navbar_border{
   display:block;
   width:100%;
   background: #fff;
@@ -104,7 +104,7 @@ a{
   position: relative;
 }
 
-.navWrap{
+#navWrap{
   margin-bottom:0;
   font-family: CooperHewitt;
   font-style: medium;
