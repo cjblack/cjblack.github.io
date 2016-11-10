@@ -1,23 +1,23 @@
 
-var path_c = new Path.Circle({
-  center: [40, 50],
-  radius: 20,
+var path_c = new Path.Rectangle({
+    point: [20,20],
+    size: [60,60],
   fillColor: '#0020FF',
 });
-var path_c1 = new Path.Circle({
-  center: [55, 50],
-  radius: 20,
+var path_c1 = new Path.Rectangle({
+  point: [50,50],
+  size: [60,60],
   fillColor: '#0040FF',
 });
-var path_c2 = new Path.Circle({
-  center: [70, 50],
-  radius: 20,
+var path_c2 = new Path.Rectangle({
+  point: [80,80],
+  size: [60,60],
     fillColor: '#0060FF',
 
 });
-var path_c3 = new Path.Circle({
-  center: [85, 50],
-  radius: 20,
+var path_c3 = new Path.Rectangle({
+  point: [110,110],
+  size: [60,60],
  fillColor: '#0080FF',
 });
 
