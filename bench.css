@@ -4,53 +4,68 @@
 
 @font-face{
  font-family: CooperHewitt;
- src: url("fonts/CooperHewitt/CooperHewitt-Light.woff")
+ src: url("fonts/CooperHewitt/CooperHewitt-Light.woff");
+ font-style: light;
 }
 @font-face{
  font-family: CooperHewitt;
- src: url("fonts/CooperHewitt/CooperHewitt-Medium.woff")
+ src: url("fonts/CooperHewitt/CooperHewitt-Medium.woff");
  font-style: medium;
 }
 @font-face{
  font-family: CooperHewitt;
- src: url("fonts/CooperHewitt/CooperHewitt-Heavy.woff")
+ src: url("fonts/CooperHewitt/CooperHewitt-Book.woff");
+ font-style: book;
+}
+@font-face{
+ font-family: CooperHewitt;
+ src: url("fonts/CooperHewitt/CooperHewitt-Heavy.woff");
  font-style: heavy;
 }
 @font-face{
  font-family: CooperHewitt;
- src: url("fonts/CooperHewitt/CooperHewitt-Thin.woff")
+ src: url("fonts/CooperHewitt/CooperHewitt-Thin.woff");
  font-style: thin;
 }
 @font-face{
  font-family: CooperHewitt;
- src: url("fonts/CooperHewitt/CooperHewitt-Bold.woff")
+ src: url("fonts/CooperHewitt/CooperHewitt-Bold.woff");
  font-style: bold;
+}
+html{
+  font-size: 15px;
+}
+
+head{
+  padding-left:30px;
+  font-family: CooperHewitt;
+  font-size: 3.0rem;
 }
 
 body{
   padding-top:10px;
   padding-left:30px;
   font-family: CooperHewitt;
-  font-size:50%;
+  font-style: thin;
+  font-size:1.7rem;
 }
 
-head{
-  font-family: CooperHewitt;
-  font-style: bold;
-  font-size: 100%;
+h1{font-size: 2.6rem; font-style: book;}
+h2{font-size: 2.4rem; font-style: medium;}
+h3{font-size: 2.2rem; font-style: light;}
+h4{font-size: 1.6rem; font-style: light;}
+h5{font-size: 1.4rem;}
+h6{font-size: 1.2rem;}
+
+p{
+  font-size:1.0rem;
+  font-style: thin;
 }
-
-h1{font-size: 100%;line-height:1.2; letter-spacing: -0.1rem;}
-h2{font-size: 70%; line-height: 1.25; letter-spacing: -0.1rem;}
-h3{font-size: 65%;line-height: 1.3; letter-spacing: -0.1rem;}
-h4{font-size: 50%;line-height: 1.35; letter-spacing: -0.08rem;}
-h5{font-size: 50%;line-height: 1.4; letter-spacing: -0.09rem;}
-h6{font-size: 45%;line-height: 1.45; letter-spacing: 0;}
-
 
 a{
   color:inherit;
   text-decoration: inherit;
+  padding-left: 10px;
 }
 
 /*...id's*/
@@ -62,16 +77,16 @@ a{
 
 .code{
   font-family: 'Lekton', sans-serif;
-  font-size: 40%;
+  font-size: 1.0rem;
   color: grey;
-  font-style: normal;
+  font-weight: bold;
   position: relative;
   width: 100%;
   max-width: 960px;
   margin: 0 auto;
   padding: .2rem 0.5rem;
   white-space: nowrap;
-  background: white;
+  background: #F2F2F2;
   border: 1px solid #E1E1E1;
   border-radius: 4px;
   display:block;
@@ -91,8 +106,7 @@ a{
 .navWrap{
   margin-bottom:0;
   font-family: CooperHewitt;
-  font-style: bold;
-  font-size: 50%;
-  color: grey;
+  font-style: medium;
+  font-size: 1.2rem;
   white-space: nowrap;
 }
