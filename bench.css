@@ -5,7 +5,6 @@
 @font-face{
  font-family: CooperHewitt;
  src: url("fonts/CooperHewitt/CooperHewitt-Light.woff");
- font-style: light;
 }
 @font-face{
  font-family: CooperHewitt;
@@ -50,10 +49,10 @@ body{
   font-size:1.7rem;
 }
 
-h1{font-size: 2.6rem; font-style: light;}
-h2{font-size: 2.4rem; font-style: light;}
-h3{font-size: 2.2rem; font-style: light;}
-h4{font-size: 1.6rem; font-style: light;}
+h1{font-size: 2.6rem;}
+h2{font-size: 2.4rem;}
+h3{font-size: 2.2rem;}
+h4{font-size: 1.6rem;}
 h5{font-size: 1.4rem;}
 h6{font-size: 1.2rem;}
 
