@@ -112,15 +112,18 @@ a{
 }
 
 .blog_container{
-  max-width: 1000px;
-  white-space: nowrap;
-  padding-left: 0.1rem;
+  position: relative;
+  width: 100%;
+  z-index: 1;
 }
 
-.blog_box{
-  padding-left:10px;
-  width: 20%;
-  height: 20%;
-  color: 'grey';
-  border: 1px solid #E1E1E1;
+.blog_container .blog_box{
+  position: relative;
+  width: 27%;
+  padding: 3%;
+  float: left;
 }
+
+.blog_container .blog_box:nth-child(1) {left: 33.3%;}
+.blog_container .blog_box:nth-child(2) {left: -33.3%;}
+.blog_container .blog_box:nth-child(3) {left: 0;}
