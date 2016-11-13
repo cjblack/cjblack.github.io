@@ -162,7 +162,6 @@ a{
 }
 
 .blog_container .blog_box:hover, .blog_container .blog_box:focus, .blog_container .blog_box:active{
-  z-index: 99;
   color: white;
 }
 
