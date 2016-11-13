@@ -126,10 +126,11 @@ a{
   background-color: #E1E1E1;
   border: 1px solid #E1E1E2;
   padding-left: 30px;
+  padding-top: 30px;
   padding: 3%;
   float: left;
 }
 
 .blog_container .blog_box:nth-child(1) {left: 0%;}
-.blog_container .blog_box:nth-child(2) {left: 35%;}
-.blog_container .blog_box:nth-child(3) {left: 85%;}
+.blog_container .blog_box:nth-child(2) {left: 25%;}
+.blog_container .blog_box:nth-child(3) {left: 50%;}
