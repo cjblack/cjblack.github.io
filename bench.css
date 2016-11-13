@@ -50,7 +50,7 @@ body{
   font-size:1.7rem;
 }
 
-h1{font-size: 2.6rem; font-style: thin;}
+h1{font-size: 2.6rem; font-style: medium;}
 h2{font-size: 2.4rem; font-style: thin;}
 h3{font-size: 2.2rem; font-style: thin;}
 h4{font-size: 1.6rem; font-style: thin;}
@@ -109,4 +109,18 @@ a{
   font-style: medium;
   font-size: 1.2rem;
   white-space: nowrap;
+}
+
+.blog_container{
+  max-width: 1000px;
+  white-space: nowrap;
+  padding-left: 0.1rem;
+}
+
+.blog_box{
+  padding-left:10px;
+  width: 20%;
+  height: 20%;
+  color: 'grey';
+  border: 1px solid #E1E1E1;
 }
