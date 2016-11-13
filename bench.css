@@ -85,8 +85,7 @@ a{
   width: 100%;
   max-width: 960px;
   margin: 0 auto;
-  padding-left: 50px;
-  padding-top: 30px;
+  padding: .2rem 0.5rem;
   white-space: nowrap;
   background: #F2F2F2;
   border: 1px solid #E1E1E1;
@@ -150,7 +149,7 @@ a{
   left: 0;
   right: 0;
   bottom: 0;
-  background: #2098D1;
+  background: #2B76E8;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
   -webkit-transform-origin: 0 50%;
@@ -177,11 +176,3 @@ a{
 .blog_container .blog_box:nth-child(1) {left: 0%;}
 .blog_container .blog_box:nth-child(2) {left: 0%;}
 .blog_container .blog_box:nth-child(3) {left: 0%;}
-
-.blog_container .blog_box:nth-child(1):before {
-  color:blue;
-  background-color: white;
-  background-image: url("../images/huddle_logo.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-}
