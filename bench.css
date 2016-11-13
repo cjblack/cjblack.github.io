@@ -5,6 +5,7 @@
 @font-face{
  font-family: CooperHewitt;
  src: url("fonts/CooperHewitt/CooperHewitt-Light.woff");
+ font-style: light;
 }
 @font-face{
  font-family: CooperHewitt;
@@ -16,21 +17,21 @@
  src: url("fonts/CooperHewitt/CooperHewitt-Book.woff");
  font-style: book;
 }
-@font-face{
+/*@font-face{
  font-family: CooperHewitt;
  src: url("fonts/CooperHewitt/CooperHewitt-Heavy.woff");
  font-style: heavy;
-}
+}*/
 @font-face{
  font-family: CooperHewitt;
  src: url("fonts/CooperHewitt/CooperHewitt-Thin.woff");
  font-style: thin;
 }
-@font-face{
+/*@font-face{
  font-family: CooperHewitt;
  src: url("fonts/CooperHewitt/CooperHewitt-Bold.woff");
  font-style: bold;
-}
+}*/
 html{
   font-size: 15px;
 }
@@ -49,12 +50,12 @@ body{
   font-size:1.7rem;
 }
 
-h1{font-size: 2.6rem;}
-h2{font-size: 2.4rem;}
-h3{font-size: 2.2rem;}
-h4{font-size: 1.6rem;}
-h5{font-size: 1.4rem;}
-h6{font-size: 1.2rem;}
+h1{font-size: 2.6rem; font-style: thin;}
+h2{font-size: 2.4rem; font-style: thin;}
+h3{font-size: 2.2rem; font-style: thin;}
+h4{font-size: 1.6rem; font-style: thin;}
+h5{font-size: 1.4rem; font-style: thin;}
+h6{font-size: 1.2rem; font-style: thin;}
 
 p{
   font-size:1.0rem;
