@@ -115,6 +115,7 @@ a{
 .blog_container{
   position: relative;
   justify-content: center;
+  padding-top: 30px;
   width: 100%;
   z-index: 1;
 }
@@ -147,7 +148,7 @@ a{
   left: 0;
   right: 0;
   bottom: 0;
-  background: #E1E1E1;
+  background: #2098D1;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
   -webkit-transform-origin: 0 50%;
