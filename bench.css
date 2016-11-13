@@ -132,5 +132,5 @@ a{
 }
 
 .blog_container .blog_box:nth-child(1) {left: 0%;}
-.blog_container .blog_box:nth-child(2) {left: 25%;}
-.blog_container .blog_box:nth-child(3) {left: 50%;}
+.blog_container .blog_box:nth-child(2) {left: 0%;}
+.blog_container .blog_box:nth-child(3) {left: 0%;}
