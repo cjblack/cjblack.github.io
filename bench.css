@@ -142,6 +142,7 @@ a{
 }
 
 .blog_container .blog_box:before{
+  content:normal;
   position: absolute;
   top: 0;
   left: 0;
