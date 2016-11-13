@@ -121,9 +121,10 @@ a{
 .blog_container .blog_box{
   position: relative;
   justify-content: center;
-  width: 27%;
+  width: 15%;
   background-color: #E1E1E1;
   border: 1px solid #E1E1E2;
+  padding-left: 10px;
   padding: 3%;
   float: left;
 }
