@@ -85,7 +85,8 @@ a{
   width: 100%;
   max-width: 960px;
   margin: 0 auto;
-  padding: .2rem 0.5rem;
+  padding-left: 50px;
+  padding-top: 30px;
   white-space: nowrap;
   background: #F2F2F2;
   border: 1px solid #E1E1E1;
