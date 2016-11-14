@@ -64,7 +64,8 @@ p{
 }
 
 a{
-  color:inherit;
+  color: #2B76E8;
+  text-shadow: 1px 1px 1px black;
   text-decoration: inherit;
   padding-left: 10px;
 }
