@@ -167,8 +167,8 @@ a{
 }
 
 .blog_container .blog_box:hover:before, .blog_container .blog_box:focus:before, .blog_container .blog_box:active:before{
-  -webkit-transform: scaleX(1);
-   transform: scaleX(1);
+  -webkit-transform: scaleX(2);
+   transform: scaleX(2);
    -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
    transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
 }
