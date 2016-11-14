@@ -139,11 +139,12 @@ a{
   padding-top: 30px;
   padding: 3%;
   float: left;
+  z-index: 2;
 }
 
 .blog_container .blog_box:before{
   content: "";
-  z-index: 98;
+  z-index: 3;
   position: absolute;
   top: 0;
   left: 0;
@@ -163,8 +164,8 @@ a{
 }
 
 .blog_container .blog_box:hover, .blog_container .blog_box:focus, .blog_container .blog_box:active{
+  z-index: 4;
   color: white;
-  z-index: 99;
 }
 
 .blog_container .blog_box:hover:before, .blog_container .blog_box:focus:before, .blog_container .blog_box:active:before{
