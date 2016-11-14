@@ -64,10 +64,8 @@ p{
 }
 
 a{
-  color: #2B76E8;
   font-family: CooperHewitt;
   font-style: book;
-  text-shadow: 1px 1px 1px black;
   text-decoration: inherit;
   padding-left: 10px;
 }
@@ -113,6 +111,10 @@ a{
   font-style: medium;
   font-size: 1.2rem;
   white-space: nowrap;
+}
+
+.navWrap:hover, .navWrap:focus, .navWrap:active{
+  color: #2B76E8;
 }
 
 .blog_container{
