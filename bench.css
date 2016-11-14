@@ -71,6 +71,12 @@ a:hover, a:focus, a:active{
   position: relative;
 
 }
+
+#heading{
+  background: url("images/zermatt_.png");
+  color: white;
+}
+
 /*CLASSES*/
 
 .code{
