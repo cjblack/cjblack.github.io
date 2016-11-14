@@ -51,7 +51,7 @@ body{
   font-size:1.7rem;
 }
 
-h1{font-size: 2.6rem; font-style: medium;}
+h1{font-size: 2.6rem; font-family: CooperHewitt; font-style: medium;}
 h2{font-size: 2.4rem; font-style: thin;}
 h3{font-size: 2.2rem; font-style: thin;}
 h4{font-size: 1.6rem; font-style: thin;}
@@ -65,6 +65,8 @@ p{
 
 a{
   color: #2B76E8;
+  font-family: CooperHewitt;
+  font-style: book;
   text-shadow: 1px 1px 1px black;
   text-decoration: inherit;
   padding-left: 10px;
