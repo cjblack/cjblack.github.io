@@ -24,8 +24,8 @@
  src: url("fonts/CooperHewitt/CooperHewitt-Thin.woff");
 }
 @font-face{
- font-family: CooperHewitt-Bold;
- src: url("fonts/CooperHewitt/CooperHewitt-Bold.woff");
+ font-family: CooperHewitt-SB;
+ src: url("fonts/CooperHewitt/CooperHewitt-Semibold.woff");
 }
 html{
   font-size: 15px;
@@ -39,15 +39,15 @@ head{
 body{
   padding-top:10px;
   padding-left:30px;
-  font-family: CooperHewitt-T;
+  font-family: CooperHewitt-L;
   font-size:1.7rem;
 }
 
-h1{font-size: 2.6rem; font-family: CooperHewitt-M;}
+h1{font-size: 2.6rem; font-family: CooperHewitt-SB;}
 h2{font-size: 2.4rem; font-family: CooperHewitt-M;}
 h3{font-size: 2.2rem; font-family: CooperHewitt-Book;}
 h4{font-size: 1.6rem; font-family: CooperHewitt-L;}
-h5{font-size: 1.4rem;}
+h5{font-size: 1.4rem; font-family: CooperHewitt-T;}
 h6{font-size: 1.2rem;}
 
 p{
