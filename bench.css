@@ -76,7 +76,7 @@ p{
 
 #main{
   /*transition: margin-left .5s;*/
-  float: right;
+  float: left;
   padding: 20px;
 }
 /*CLASSES*/
@@ -104,7 +104,7 @@ p{
   float: left;
   height: 100%;
   display:block;
-  width:10%;
+  width:100%;
   position: fixed;
   z-index: 1;
   top:0;
@@ -139,6 +139,7 @@ p{
   position: relative;
   justify-content: center;
   padding-top: 30px;
+  padding-left: 30px;
   width: 100%;
   z-index: 1;
 }
