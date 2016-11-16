@@ -68,15 +68,17 @@ p{
 
 #heading{
   color:black;
+  margin-left:20%;
 }
 #heading:before{
   color:#2B76E8;
   content: "cj";
+  margin-left:20%;
 }
 
 #main{
   /*transition: margin-left .5s;*/
-  right: 0;
+  margin-left: 20%;
   width: 80%;
   padding: 20px;
 }
