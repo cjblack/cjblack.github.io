@@ -44,7 +44,7 @@ body{
   font-size:1.7rem;
 }
 
-h1{font-size: 2.6rem; font-family: CooperHewitt-SB;}
+h1{font-size: 2.6rem; font-family: CooperHewitt-M;}
 h2{font-size: 2.4rem; font-family: CooperHewitt-M;}
 h3{font-size: 2.2rem; font-family: CooperHewitt-Book;}
 h4{font-size: 1.6rem; font-family: CooperHewitt-L;}
@@ -68,6 +68,7 @@ p{
 
 #heading{
   color:black;
+  font-size: 2.0rem;
   z-index: 3;
   position: fixed;
 }
