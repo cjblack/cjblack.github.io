@@ -75,6 +75,7 @@ p{
 
 #main{
   /*transition: margin-left .5s;*/
+  float: right;
   padding: 20px;
 }
 /*CLASSES*/
@@ -99,6 +100,7 @@ p{
 
 /*...navigation bar class*/
 .navbar_border{
+  float: left;
   height: 100%;
   display:block;
   width:100%;
