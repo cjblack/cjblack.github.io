@@ -55,22 +55,15 @@ p{
   font-family: CooperHewitt-L;
 }
 
-a{
-  color:inherit;
-  text-decoration: inherit;
-  font-family: CooperHewitt-M;
-  padding-left: 10px;
-}
 
-a:hover, a:focus, a:active{
-  color: #2B76E8;
+/*media stuff*/
+
+@media screen and (max-height: 450px){
+  .navbar_border {padding-top: 15px;}
+  .navbar_border a {font-size: 1.2rem;}
 }
 
 /*...id's*/
-#section{
-  position: relative;
-
-}
 
 #heading{
   color:black;
@@ -80,6 +73,10 @@ a:hover, a:focus, a:active{
   content: "cj";
 }
 
+#main{
+  transition: margin-left .5s;
+  padding: 20px;
+}
 /*CLASSES*/
 
 .code{
@@ -102,20 +99,35 @@ a:hover, a:focus, a:active{
 
 /*...navigation bar class*/
 .navbar_border{
+  height: 100%;
   display:block;
-  width:100%;
+  width:0%;
+  position: fixed;
+  z-index: 1;
+  top:0;
+  left:0;
+  overflow-x: hidden;
+  padding-top: 60px;
   background: #fff;
-  z-index: 99;
   border-top: 1px solid #eee;
   border-bottom: 1px solid #eee;
 }
 
-.navWrap{
-  margin-bottom:0;
+.navbar_border a{
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  display:block;
   font-family: CooperHewitt;
   font-style: medium;
   font-size: 1.2rem;
   white-space: nowrap;
+  color:inherit;
+  text-decoration: inherit;
+  font-family: CooperHewitt-M;
+}
+
+.navbar_border a:hover, .navbar_border a:focus, .navbar_border a:active{
+  color: #2B76E8;
 }
 
 
