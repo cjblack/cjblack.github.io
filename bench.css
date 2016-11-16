@@ -68,12 +68,15 @@ p{
 
 #heading{
   color:black;
-  margin-left:20%;
+  z-index: 3;
+  position: fixed;
 }
+
 #heading:before{
   color:#2B76E8;
+  position:fixed;
+  z-index: 3;
   content: "cj";
-  margin-left:20%;
 }
 
 #main{
