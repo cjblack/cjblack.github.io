@@ -138,7 +138,7 @@ a{
   font-style: medium;
   font-size: 1.2rem;
   white-space: nowrap;
-  color:inherit;
+  /*color:inherit;*/
   text-decoration: inherit;
   font-family: CooperHewitt-M;
 }
