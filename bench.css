@@ -127,6 +127,7 @@ a{
   overflow-x: hidden;
   margin-top: 80px;
   background: #fff;
+  opacity: 0.6;
 }
 
 .navbar_border a{
