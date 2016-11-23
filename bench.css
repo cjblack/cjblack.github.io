@@ -32,7 +32,7 @@ html{
 }
 
 head{
-  padding-left:8px;
+  /*padding-left:8px;*/
   font-size: 3.0rem;
   z-index: 2;
 }
@@ -46,14 +46,17 @@ body{
 
 h1{font-size: 2.6rem; font-family: CooperHewitt-M;}
 h2{font-size: 2.4rem; font-family: CooperHewitt-M;}
-h3{font-size: 2.2rem; font-family: CooperHewitt-Book;}
+h3{font-size: 2.0rem; font-family: CooperHewitt-M; color: #2B76E8;}
 h4{font-size: 1.6rem; font-family: CooperHewitt-L;}
 h5{font-size: 1.4rem; font-family: CooperHewitt-T;}
-h6{font-size: 1.2rem;}
+h6{font-size: 1.1rem;}
 
 p{
-  font-size:1.0rem;
-  font-family: CooperHewitt-L;
+  font-size:1.1rem;
+  font-family: CooperHewitt-Book;
+  color: #59595b;
+  text-align: justify;
+  text-indent: 1.1rem;
 }
 
 a{
@@ -86,15 +89,19 @@ a{
 #main{
   margin-left: 20%;
   width: 80%;
-  padding: 20px;
 }
 
 #title{
   margin-left: 20%;
+  margin-top: 50px;
   width: 80%;
 }
 /*CLASSES*/
 
+.blue{
+  color:#2B76E8;
+  font-family: CooperHewitt-Book;
+}
 
 .code{
   font-family: 'Lekton', sans-serif;
@@ -125,13 +132,13 @@ a{
   top:0;
   left:0;
   overflow-x: hidden;
-  margin-top: 80px;
+  margin-top: 120px;
   background: #fff;
   /*opacity: 0.6;*/
 }
 
 .navbar_border a{
-  padding: 8px 8px 8px 32px;
+  padding: 8px 8px 8px 62px;
   text-decoration: none;
   display:block;
   font-family: CooperHewitt;
@@ -215,3 +222,18 @@ a{
 .project_container .project_box:nth-child(1) {left: 0%;}
 .project_container .project_box:nth-child(2) {left: 0%;}
 .project_container .project_box:nth-child(3) {left: 0%;}
+
+
+.heading_content{
+  color:grey;
+}
+.heading_content h6{
+  display:none;
+}
+
+.heading_content:hover{
+  color: black;
+}
+/*.heading_content:hover h6{
+  display: inline;
+}*/

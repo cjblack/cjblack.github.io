@@ -3,6 +3,7 @@
   <link rel="stylesheet" type="text/css" href="bench.css">
   <script type="text/javascript" src="js/paper.js"></script>
   <script type="text/paperscript" src ="js/cjLogo.js" canvas="myCanvas"></script>
+  <script type="text/javascript" src="js/jquery.js"></script>
   <title> cjblack about </title>
   <!-- <canvas id="myCanvas" resize></canvas> -->
   <h1 id="heading">black</h1>
@@ -16,5 +17,46 @@
         <a href="blog/index.html"> blog </a>
     </div>
     <h3 id="title">about</h3>
+    <div id="main">
+      <h4> neuroscientist<span class="blue">/</span>engineer<span class="blue">/</span>programmer</h4>
+      <p> &Tab;I am a PhD student at <a href="http://borton.engin.brown.edu/"><span class="blue">Brown University</span></a> working in Biomedical Engineering. However, as most BME students, my work is quite interdisciplinary. Using a mixture of neuroscience, engineering, and programming techniques, I am working on sensory models to develop novel tools that can one day be translated to the clinic.</p>
+      <p>Currently, my focus is in spinal and cortical processing of sensory information. To better understand such processing, I am working on developing a large-scale neural framework written in NEURON & Python. I will be using this pages site to add any relevant information I've come across to help others with their own coding and experimentation. Additionally, I will be using this page to explore HTML, CSS, and Javascript, so please bear with me...</p>
+      <div class="heading_content">
+        <h4>education<span class="blue">&andand;</span></h4>
+        <h6>M.S., Biomedical Engineering, Brown University, Providence, RI. 05.2015
+        <br>B.S., Biochemistry, University of Delaware, Newark, DE. 05.2012</h6>
+      </div>
+      <div class = "heading_content">
+        <h4>publications<span class="blue">&andand;</span></h4>
+        <h6>
+          Posters
+          <br>
+          <br>
+          Black C., Voigts J., Moore C., Jones S. Open Ephys Electroencephalography: A
+    Novel Method for Real-Time Recording during Transcranial Alternating Current
+    Stimulation.NYC Neuromodulation Conference (NEUROMODEC), 2015,
+    NYC, NY.
+          <br>
+          <br>
+
+    Black C., Agrawal U., Ladow M., Santoyo J., Moore C., Jones S. Modulating
+    tactile perception using 10 Hz transcranial alternating current stimulation.
+    Cognitive Rhythms Collaborative Retreat, 2015, Boston, MA.
+          <br>
+          <br>
+Black C., Agrawal U., Ladow M., Santoyo J., Moore C., Jones S.  A novel integrated EEG and neural modeling approach to uncovering the mechanisms of transcranial alternating current stimulation.  Society for Neuroscience, Annual Meeting, 2015, Chicago, IL.
+        </h6>
+      </div>
+      <div class="heading_content">
+        <h4>skills<span class="blue">&andand;</span></h4>
+      </div>
+      <script>
+      $(window).scroll(function(){
+        var scroll = $(window).scrollTop();
+        var h_6 = $("h6:first");
+        if(scroll > 40){$("h6:first").css("display","inline").fadeout("slow"); $("h6:first").css("color","black")};
+        if(scroll < 40){$("h6:first").css("display","none");}
+      });
+      </script>
   </body>
 </html>
